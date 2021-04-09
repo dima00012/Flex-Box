@@ -1,0 +1,390 @@
+/* ustify-content:space-between  ; делает отстыпы между ними */
+/* justify-content:center  ; ставят все плоки в центтр */
+/* justify-content:flex-start; стфват блоки в начало  */
+/* justify-content:flex-end; стават блоки в конец */
+/* justify-content:space-around ; делает отстубы ао сторонам */
+body{
+    margin: 0px;
+    background: white;
+}
+/*  */
+.bac_foto_glav{
+    background: url("https://searchthisweb.com/wallpaper/thumb1000/main1000_lightning-mcqueen_7261x5262_hz8zp.jpg")center / cover fixed;
+    width: 100%;
+    height: 100vh;
+}
+.plav_text h3{
+    color: green;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.plav_text h4{
+    color: silver;
+    margin: 0px;
+    padding-left: 70px;
+    font-size: 15px;
+    font-weight: 100;
+}
+/*  */
+.text_center{
+    text-align: center;
+    margin-top: 130px;
+}
+.text_center h1{
+    font-size: 90px;
+    color: blue;
+}
+.text_center p{
+    margin-left: 420px ;
+    margin-right: 420px;
+    color: silver;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.text_center a{
+    color: white;
+    background-color: sandybrown;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 8px  18px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.text_center a:hover{
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 9px  19px;
+    border-radius: 10px;
+ 
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.center_foto{
+    background: url("https://searchthisweb.com/wallpaper/thumb1000/main1000_cars-3_8511x4256_4wlzx.jpg")center / cover fixed;
+    width: 100%;
+    height: 120vh;
+}
+.center_foto h1{
+    opacity: 0;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.bacfoto{
+    background: url("https://searchthisweb.com/wallpaper/thumb1000/main1000_cars-3_4950x6900_qhu9p.jpg")center / cover;
+    margin-right: 300px;
+    margin-left: 200px;
+    width: 1000px;
+    height: 300px;
+    border-radius: 5px;
+    transition: 3s;
+}
+.bacfoto:hover{
+    background: url("https://searchthisweb.com/wallpaper/thumb1000/main1000_cars-3_4950x6900_qhu9p.jpg")center / cover;
+    margin-right: 300px;
+    margin-left: 200px;
+    width: 1000px;
+    height: 300px;
+    border-radius: 5px;
+    transition: 2s;
+}
+.cards3{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.cards3 div{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.cards3 div h3{
+    color: white;
+    font-size: 30px;
+}
+.cards3 div p{
+    color: white;
+    font-size: 16px;
+}
+.cards3 div a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    border: 2 solid black;
+    padding: 10px 20px;
+    background: blue;
+    border-radius: 10px;
+    transition: 1s;
+}
+.cards3 div a:hover{
+    text-decoration: none;
+    color: blue;
+    text-align: left;
+    border: 2 solid black;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 10px;
+    transition: 1s;
+}
+.card1{
+    background: url("https://searchthisweb.com/wallpaper/thumb1000/main1000_cars-3_4950x6900_qhu9p.jpg")center / cover;
+    width: 400px;
+    height: 350px;
+    transition: 1s;
+    position: relative;
+}
+.card1 h2{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    bottom: 10px;
+    left: 10px;
+}
+.card1 h2:hover{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    bottom: 0px;
+    left: 30px;
+    opacity: 0;
+}
+.card1:hover{
+    background: url("https://searchthisweb.com/wallpaper/thumb1000/main1000_cars-3_4950x6900_qhu9p.jpg")center / cover;
+    width: 400px;
+    height: 350px;
+    transition: 1s;
+}
+.card2{
+    background: url("https://searchthisweb.com/wallpaper/thumb1000/main1000_cars-3_4950x6900_qhu9p.jpg")center / cover;
+    width: 400px;
+    height: 350px;
+    transition: 1s;
+    position: relative;
+}
+.card2 h2{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    bottom: 10px;
+    left: 10px;
+}
+.card2 h2:hover{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    bottom: 0px;
+    left: 30px;
+    opacity: 0;
+}
+
+.card2:hover{
+    background: url("https://searchthisweb.com/wallpaper/thumb1000/main1000_cars-3_4950x6900_qhu9p.jpg")center / cover;
+    width: 400px;
+    height: 350px;
+    transition: 1s;
+
+}
+.card3{
+    background: url("https://searchthisweb.com/wallpaper/thumb1000/main1000_cars-3_4950x6900_qhu9p.jpg")center / cover;
+    width: 400px;
+    height: 350px;
+    position: relative;
+}
+.card3 h2{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    bottom: 0px;
+    left: 10px; 
+}
+.card3 h2:hover{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    bottom: 0px;
+    left: 30px;
+    opacity: 0;
+}
+.card3:hover{
+    background: url("https://searchthisweb.com/wallpaper/thumb1000/main1000_cars-3_4950x6900_qhu9p.jpg")center / cover;
+    width: 400px;
+    height: 350px;
+    transition: 1s;
+  
+}
+.opasity{
+    opacity: 0;
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+}
+.opasity:hover{
+    opacity: 9;
+    transition: 1s;
+}
+/* 11111111111111111111111111111111111111111111111111111111111111111111111111111111 */
+
+.dim1 h1{
+    color: blue;
+    text-align: left;
+}
+.container{
+    background-color: white;
+    width: 100%;
+    height: 40vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    grid-template-rows: 40px 40px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 50px);
+}
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: repeat(2, 100px);
+}
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 150px);
+}
+.container > div > img {
+    width: 99%;
+    height: 120%;
+    object-fit: cover;
+}
+/* 1111111111111111111111111111111111111111111111 */
+.dil1{
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+}
+.dil1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.back_foto4{
+    width: 100%;
+    height: 120vh;
+}
+/* background */
+.block_vidio_text{
+    display: flex;
+    justify-content: space-between;
+}
+.block_vidio_text div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* background */
+/* text */
+.text_block{
+    width: 700px;
+    height: 700px;
+}
+.text_block h2{
+    padding-top: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 40px;
+    color: black;
+}
+.text_block h2:hover{
+    padding-top: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 40px;
+    color: blue;
+    transition: .1s;
+}
+.text_block p{
+    font-size: 20px;
+    color: black;
+}
+/* text */
+
+.block_vidio{
+    background: url("https://p4.wallpaperbetter.com/wallpaper/784/225/107/5bd3be1fac93f-wallpaper-preview.jpg");
+    width: 700px;
+    height: 500px;
+}
+.block_vidio video{
+    width: 100%;
+    height: 100%;
+}
+
+/*  */
+.end1{
+    background: url("https://searchthisweb.com/wallpaper/thumb1000/main1000_the-nutcracker-and-the-four-realms_5120x3200_mzzue.jpg") center / cover;
+    width: 100%;
+    height: 40vh;
+}
+.ula ul a{
+    padding-right: 20px;
+    padding-left: 570px;
+    color: wheat;
+    margin: 30px;
+    font-size: 50px;
+    font-weight: 100;   
+}
+.ula ul a:hover{
+    padding-right: 20px;
+    padding-left: 570px;
+    color: blue;
+    margin: 30px;
+    transition: .1s;
+    font-size: 50px;
+    font-weight: 100;   
+}
+.end1 h1{
+    text-align: center;
+    color: silver;
+
+}
+.end1 h1:hover{
+    text-align: center;
+    color: blue;
+    transition: .1s;
+
+}
+.end1 ul li{
+
+    display: inline-flex;
+    padding-bottom: 12px;
+}
+.end1 ul li a{
+    font-size: 25px;
+    padding-right: 20px;
+    padding-left: 180px;
+    margin: 30px;
+    text-decoration: none;
+    color: wheat;
+}
+.end1 ul li a:hover{
+    font-size: 25px;
+    padding-right: 20px;
+    padding-left: 180px;
+    margin: 30px;
+    text-decoration: none;
+    color:blue;
+    transition: .1s;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media  (max-width:1214px)
+    {
+        
+    }
